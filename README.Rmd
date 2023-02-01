@@ -29,7 +29,7 @@ library("devtools")
 
 ## Package Installation
 From the folder with the files contained in the repository, execute the following command:
-```{r, echo = FALSE, message = FALSE}
+```{r, echo = TRUE, results = FALSE}
 devtools::install()
 ```
 
