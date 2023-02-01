@@ -8,7 +8,7 @@ Amazon (AWS) services.
 First, the repository containing the files needed to install the package
 must be cloned. From a terminal, run the following command:
 
-    git clone https://github.com/Gonzalo1985/era5.aws
+    $ git clone https://github.com/Gonzalo1985/era5.aws
 
 ## Pre-installed required packages
 

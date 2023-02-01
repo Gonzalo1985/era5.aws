@@ -4,7 +4,7 @@ author: "Gonzalo Díaz"
 date: "`r format(Sys.time(), '%d %B, %Y - %H:%M:%S')`"
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
 always_allow_html: yes
 ---
 
@@ -18,7 +18,7 @@ This R package (library) was created to handle ERA5 data obtained from Amazon (A
 ## Clone the git repository
 First, the repository containing the files needed to install the package must be cloned. From a terminal, run the following command:
 ```
-git clone https://github.com/Gonzalo1985/era5.aws
+$ git clone https://github.com/Gonzalo1985/era5.aws
 ```
 
 ## Pre-installed required packages
