@@ -12,22 +12,25 @@ always_allow_html: yes
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## era5.aws R package
-Este paquete (librería) de R fue creado para el manejo de datos de ERA5 obtenidos desde los servicios de Amazon (AWS).
+# era5.aws R package
+This R package (library) was created to handle ERA5 data obtained from Amazon (AWS) services.
 
-### Paquetes necesarios previamente instalados
-El paquete era5.aws necesita tener previamente instalado el paquete aws.s3 y devtools. Desde una sesión de R ejecute los siguientes comandos:
+## Pre-installed required packages
+The era5.aws package needs to have the aws.s3 and devtools packages installed beforehand. From an R session run the following commands:
 ```{r, echo = TRUE, message = FALSE}
 install.packages("aws.s3")
 install.packages("devtools")
 ```
-Luego, abra las librerías "aws.s3" y "devtools":
+Then, open the "aws.s3" and "devtools" libraries:
 ```{r, echo = TRUE, message = FALSE}
 library("aws.s3")
 library("devtools")
 ```
 
-### Instalación del paquete
+## Package Installation
+From the folder with the files contained in the repository, execute the following command:
+```{r, echo = TRUE, message = FALSE}
+devtools::install()
+```
 
-
-Contacto: Gonzalo M. Díaz (gonzalomartindiaz22@gmail.com)
+Contact: Gonzalo M. Díaz (gonzalomartindiaz22@gmail.com)
