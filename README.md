@@ -25,10 +25,6 @@ library("devtools")
 From the folder with the files contained in the repository, execute the
 following command:
 
-``` r
-devtools::install()
-```
-
     ## 
     ## ── R CMD build ─────────────────────────────────────────────────────────────────
     ## * checking for file ‘/home/gdiaz/Documentos/packages/era5.aws/DESCRIPTION’ ... OK
@@ -39,7 +35,7 @@ devtools::install()
     ## * building ‘era5.aws_0.0.0.9000.tar.gz’
     ## 
     ## Running /usr/lib/R/bin/R CMD INSTALL \
-    ##   /tmp/Rtmp2mJzxy/era5.aws_0.0.0.9000.tar.gz --install-tests 
+    ##   /tmp/RtmpPB4C2v/era5.aws_0.0.0.9000.tar.gz --install-tests 
     ## * installing to library ‘/media/gdiaz/989feadd-8526-48b2-b3c4-e2ec3ce0e3c9/R-libs’
     ## * installing *source* package ‘era5.aws’ ...
     ## ** using staged installation
