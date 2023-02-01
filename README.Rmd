@@ -34,7 +34,7 @@ library("devtools")
 ```
 
 ## Package Installation
-From the folder cloned with the files of the repository, execute the following command:
+From the folder cloned with the files of the repository, execute the following command from an R console:
 ```{r, echo = TRUE, results = FALSE}
 devtools::install()
 ```

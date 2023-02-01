@@ -30,7 +30,7 @@ library("devtools")
 ## Package Installation
 
 From the folder cloned with the files of the repository, execute the
-following command:
+following command from an R console:
 
 ``` r
 devtools::install()
