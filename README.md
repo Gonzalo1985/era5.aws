@@ -3,6 +3,13 @@
 This R package (library) was created to handle ERA5 data obtained from
 Amazon (AWS) services.
 
+## Clone the git repository
+
+First, the repository containing the files needed to install the package
+must be cloned. From a terminal, run the following command:
+
+    git clone https://github.com/Gonzalo1985/era5.aws
+
 ## Pre-installed required packages
 
 The era5.aws package needs to have the aws.s3 and devtools packages
@@ -22,7 +29,7 @@ library("devtools")
 
 ## Package Installation
 
-From the folder with the files contained in the repository, execute the
+From the folder cloned with the files of the repository, execute the
 following command:
 
 ``` r
