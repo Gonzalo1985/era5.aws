@@ -1,0 +1,33 @@
+---
+title: "README"
+author: "Gonzalo Díaz"
+date: "`r format(Sys.time(), '%d %B, %Y - %H:%M:%S')`"
+output:
+  md_document:
+    variant: markdown_github
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## era5.aws R package
+Este paquete (librería) de R fue creado para el manejo de datos de ERA5 obtenidos desde los servicios de Amazon (AWS).
+
+### Paquetes necesarios previamente instalados
+El paquete era5.aws necesita tener previamente instalado el paquete aws.s3 y devtools. Desde una sesión de R ejecute los siguientes comandos:
+```{r, echo = TRUE, message = FALSE}
+install.packages("aws.s3")
+install.packages("devtools")
+```
+Luego, abra las librerías "aws.s3" y "devtools":
+```{r, echo = TRUE, message = FALSE}
+library("aws.s3")
+library("devtools")
+```
+
+### Instalación del paquete
+
+
+Contacto: Gonzalo M. Díaz (gonzalomartindiaz22@gmail.com)
