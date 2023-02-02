@@ -1,7 +1,9 @@
 # era5.aws R package
 
-This R package (library) was created to handle ERA5 data obtained from
-Amazon (AWS) services.
+This R package (library) was created to handle ERA5 data
+(<https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5>)
+obtained from Amazon (AWS) services
+(<https://registry.opendata.aws/ecmwf-era5/>).
 
 ## Clone the git repository
 
