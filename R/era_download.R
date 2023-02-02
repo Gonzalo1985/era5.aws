@@ -9,10 +9,12 @@
 #'
 #' @examples
 era.download <- function(era.name = era.name){
-  aws.s3::save_object(
+  save_object(
     object = paste0(era.name),
     bucket = "s3://era5-pds/",
     region = "us-east-1",
-    file = substring(era.name, 14),
+    file = paste0(substr(era.name, 1, 4), "_",
+                  substr(era.name, 6, 7), "_",
+                  substring(era.name, 14)),
     overwrite = TRUE)
 }
