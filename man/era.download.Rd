@@ -11,6 +11,9 @@ era.download(era.name = era.name)
 name of the variable to download. The string character could be the return of
 get.name.vars function}
 }
+\value{
+nc files downloaded
+}
 \description{
 Download the string character for specific variable of the AWS dataset
 }

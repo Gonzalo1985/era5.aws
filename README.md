@@ -14,18 +14,21 @@ must be cloned. From a terminal, run the following command:
 
 ## Pre-installed required packages
 
-The era5.aws package needs to have the aws.s3 and devtools packages
-installed beforehand. From an R session run the following commands:
+The era5.aws package needs to have the “aws.s3”, “terra” and “devtools”
+packages installed beforehand. From an R session run the following
+commands:
 
 ``` r
 install.packages("aws.s3")
+install.packages("terra")
 install.packages("devtools")
 ```
 
-Then, open the “aws.s3” and “devtools” libraries:
+Then, open the libraries:
 
 ``` r
 library("aws.s3")
+library("terra")
 library("devtools")
 ```
 

@@ -3,7 +3,7 @@
 #' @param year integer or character of 4 digits indicating the year
 #' @param month integer of 1 or 2 digits indicating the month
 #'
-#' @return
+#' @return a character with the variable names of year and month selected
 #' @export
 #'
 #' @examples

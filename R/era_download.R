@@ -4,7 +4,7 @@
 #' name of the variable to download. The string character could be the return of
 #' get.name.vars function
 #'
-#' @return
+#' @return nc files downloaded
 #' @export
 #'
 #' @examples

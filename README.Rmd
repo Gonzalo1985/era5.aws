@@ -22,14 +22,16 @@ $ git clone https://github.com/Gonzalo1985/era5.aws
 ```
 
 ## Pre-installed required packages
-The era5.aws package needs to have the aws.s3 and devtools packages installed beforehand. From an R session run the following commands:
+The era5.aws package needs to have the "aws.s3", "terra" and "devtools" packages installed beforehand. From an R session run the following commands:
 ```{r, echo = TRUE, message = FALSE}
 install.packages("aws.s3")
+install.packages("terra")
 install.packages("devtools")
 ```
-Then, open the "aws.s3" and "devtools" libraries:
+Then, open the libraries:
 ```{r, echo = TRUE, message = FALSE}
 library("aws.s3")
+library("terra")
 library("devtools")
 ```
 

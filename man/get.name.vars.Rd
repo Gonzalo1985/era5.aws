@@ -11,6 +11,9 @@ get.name.vars(year, month)
 
 \item{month}{integer of 1 or 2 digits indicating the month}
 }
+\value{
+a character with the variable names of year and month selected
+}
 \description{
 Complete list of era5 dataset from AWS services
 }
