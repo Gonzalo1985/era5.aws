@@ -24,14 +24,6 @@ install.packages("terra")
 install.packages("devtools")
 ```
 
-Then, open the libraries:
-
-``` r
-library("aws.s3")
-library("terra")
-library("devtools")
-```
-
 ## Package Installation
 
 From the folder cloned with the files of the repository, execute the
