@@ -18,9 +18,9 @@ era.crop(
 
 \item{era.var.name}{AWS name of variable}
 
-\item{xmn}{minimum longitude (west) between \link{0-360°}}
+\item{xmn}{minimum longitude (west) from 0 to 360 degrees}
 
-\item{xmx}{maximum longitude (east) between \link{0-360°}}
+\item{xmx}{maximum longitude (east) from 0 to 360 degrees}
 
 \item{ymn}{minimum latitude (south)}
 

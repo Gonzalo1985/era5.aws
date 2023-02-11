@@ -9,7 +9,7 @@
 #' @examples
 get.name.vars <- function(year, month)
 {
-  era.names <- get_bucket_df(
+  era.names <- aws.s3::get_bucket_df(
     bucket = "s3://era5-pds/",
     prefix = paste0(year, "/", sprintf("%02d", month), "/data"),
     max = Inf,

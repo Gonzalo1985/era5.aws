@@ -9,7 +9,7 @@
 #'
 #' @examples
 era.download <- function(era.name = era.name){
-  save_object(
+  aws.s3::save_object(
     object = paste0(era.name),
     bucket = "s3://era5-pds/",
     region = "us-east-1",
