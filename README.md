@@ -22,7 +22,7 @@ install.packages("devtools")
 ### Option 1
 
 First, the repository containing the files needed to install the package
-must be cloned. From a OS terminal, run the following command:
+must be cloned. From an OS terminal, run the following command:
 
     $ git clone https://github.com/Gonzalo1985/era5.aws
 
