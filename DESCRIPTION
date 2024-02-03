@@ -1,10 +1,10 @@
 Package: era5.aws
-Title: The package works with era5 ECMWF reanalysis information available in AWS 
-Version: 0.0.0.9000
+Title: Exploration of ERA5 ECMWF reanalysis data available in Amazon Web Services (AWS) 
+Version: 0.0.1
 Authors@R: 
     person("Gonzalo", "Diaz", , "gonzalomartindiaz22@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Tools for managing ECMWF ERA5 data obtained from AWS
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
